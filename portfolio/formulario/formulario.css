@@ -1,0 +1,41 @@
+*{
+    font-family: 'Yomogi', cursive;
+    margin: 0px;
+    padding: 0px;
+    
+}
+/*background e derivados*/
+body{ 
+   background-image:url(sketch2.png);
+    background-size: cover;
+    display: grid;
+    grid-template-areas: 'vz a1 vz2';
+    background-color: rgb(49, 49, 49);
+}
+#all{
+    box-shadow: 2px 2px 4px 4px rgb(34, 34, 34);
+    color: whitesmoke;
+    background-color: rgb(73, 73, 73);
+    margin-top:50px;
+    grid-area: a1;
+    border-radius: 15px;
+    max-width: 600px;
+text-align: center;
+
+
+}
+
+/*conteudo da pagina no geral*/
+.button{
+    background-color: rgb(255, 58, 255);
+    padding: 5px;
+    margin:3px;
+    border-radius: 25px;
+    border:solid 1px whitesmoke;
+}
+.inp{
+    color: #000;
+    border:none;
+    border-radius: 25px;
+    padding: 10px;
+}

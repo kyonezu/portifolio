@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+    <title>redes sociais</title>
+</head>
+<style>
+    *{
+       
+        font-family: 'Yomogi', cursive;
+        margin:0px;
+        padding: 0px;
+    }
+body{
+    background-image: url("sketch.png");
+    background-size: cover;
+}
+#all{
+    display: grid;
+    grid-template-areas: 'h1 h1 h1'
+                         'g1 g1 g1'
+                         'g2 g3 g4';
+}
+h1{
+    grid-area: h1;
+    color: whitesmoke;
+   text-align: center;
+   margin-top: 70px;
+}
+#line{
+    grid-area: g1;
+    color: rgb(82, 82, 82);
+    margin:150px 0px 0px 150px;
+    display:grid;
+    grid-template-areas: 'f1 f2';
+}
+#f1{
+    grid-area: f1;
+    max-width:250px;
+    margin-right:350px;
+}
+#f2{
+    margin-top: 30px;
+    max-width: 200px;
+    grid-area: f2;
+}
+#f2>a{
+    text-decoration: none;
+    color:rgb(14, 138, 21);
+}
+#f1>a{
+    text-decoration: none;
+    color:rgb(150, 62, 172);
+
+}
+#f3{
+    grid-area: g3;
+    max-width:290px;
+    margin: 50px 0px 0px 0px
+}
+#f3>a{
+    text-decoration: none;
+    color: rgb(72, 72, 182);
+}
+#twitch img{
+    margin:20px 0px 0px 180px;
+    grid-area: g2;
+    max-width:200px;
+    max-height:300px;
+    border-radius: 20px;
+    border:solid 3px whitesmoke;
+}
+#twitch img:hover{
+    color: whitesmoke;
+}
+#insta img{
+    margin-top:30px;
+    grid-area: g4;
+    max-width:200px;
+    max-height:300px;
+    border-radius: 20px;
+    border:solid 3px whitesmoke;
+}
+
+
+</style>
+<body>
+    <div id="all">
+   <h1>REDES SOCIAIS</h1>
+   <div id="line">
+    <div id="f1">
+   <p>Me siga na twitch para ver meus processos criativos mais de perto :D</p>
+   <a href="url">@CoLd_PoRcUpInE</a>
+   </div>
+   <div id="f2">
+    <p>Meu instagram para ver mais do meu trabalho :D</p>
+    <a href="">@coldporcupine</a>
+</div>
+   </div>
+   <div id="twitch"><img src="twitch.png" ></div>
+   <div id="f3">
+       <p>entre no discord e conheça pesoas da comunidade, sinta-se livre para compartilhar seus projetos por lá :D</p>
+       <a href="url">@Coldiscord</a>
+   </div>
+   <div id="insta"><img src="instagram.png"></div>
+   </div>
+</body>
+</html>
